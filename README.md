@@ -1,11 +1,11 @@
-# Light boilerplate for react app
+# Search images with react
 
-Includes: react, redux, ducks, postcss 🤘
+Simple test app 🤘
 
 ##Start:
 ```shell
-    git clone https://github.com/serheyShmyg/frontend.git &&
-    cd frontend &&
+    git clone https://github.com/sshmyg/images-search-react &&
+    cd images-search-react &&
     npm install &&
-    npm start;
+    npm dev;
 ```
