@@ -8,10 +8,33 @@
         background: #fff;
         border-radius: 5px;
         overflow: hidden;
+        position: relative;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        max-height: 100%;
+        padding: 5px;
     }
 
     &__img {
         max-width: 100%;
         display: block;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__label {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        color: #000;
+        text-align: center;
+        font-size: .7em;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

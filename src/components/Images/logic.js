@@ -10,7 +10,7 @@ import {
 
 import Info from 'app/components/Info';
 
-const InfoLoading = () => <Info>Loading</Info>;
+const InfoLoading = () => <Info>Loading...</Info>;
 const InfoNoResult = () => <Info>No search result</Info>;
 
 export default compose(

@@ -17,6 +17,7 @@ export default function ImagesRender({
 
                     return (
                         <div key={id} className="c-images__item">
+                            <div className="c-images__label">Loading...</div>
                             <img className="c-images__img" src={link} alt="" />
                         </div>
                     );
