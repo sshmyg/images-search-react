@@ -1,0 +1,19 @@
+.c-button {
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 15px;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    font-size: .9em;
+    cursor: pointer;
+    outline: transparent;
+    text-decoration: none;
+    border: 1px solid #fff;
+
+    &:disabled {
+        cursor: default;
+    }
+}

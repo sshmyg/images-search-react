@@ -1,0 +1,31 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "useBuiltIns": "entry"
+            }
+        ],
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        "transform-react-pure-class-to-function",
+        "transform-class-properties",
+        "transform-async-to-generator"
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                "transform-react-jsx-source"
+            ]
+        },
+        "production": {
+            "plugins": [
+                "transform-react-remove-prop-types",
+                "transform-react-constant-elements",
+                "transform-react-inline-elements"
+            ]
+        }
+    }
+}

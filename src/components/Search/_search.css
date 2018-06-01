@@ -1,0 +1,10 @@
+.c-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    .c-input {
+        margin-right: 10px;
+        min-width: 250px;
+    }
+}
